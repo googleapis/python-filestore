@@ -30,6 +30,7 @@ dependencies = [
     # Until this issue is closed
     # https://github.com/googleapis/google-cloud-python/issues/10566
     "google-api-core[grpc] >= 1.27.0, <3.0.0dev",
+    "google-cloud-common >= 0.1.0",
     "proto-plus >= 1.15.0",
     "packaging >= 14.3",
 ]
