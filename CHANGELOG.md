@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/googleapis/python-filestore/compare/v0.2.2...v0.2.3) (2022-06-08)
+
+
+### Bug Fixes
+
+* **deps:** require protobuf<4.0.0 on v0 branch ([#81](https://github.com/googleapis/python-filestore/issues/81)) ([294adc4](https://github.com/googleapis/python-filestore/commit/294adc4104b8adedc5de3630897649d05cb371a7))
+
 ### [0.2.2](https://github.com/googleapis/python-filestore/compare/v0.2.1...v0.2.2) (2022-05-19)
 
 
