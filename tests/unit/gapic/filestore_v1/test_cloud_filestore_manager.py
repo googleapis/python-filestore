@@ -3894,7 +3894,6 @@ def test_cloud_filestore_manager_transport_auth_adc(transport_class):
     [
         transports.CloudFilestoreManagerGrpcTransport,
         transports.CloudFilestoreManagerGrpcAsyncIOTransport,
-        transports.CloudFilestoreManagerRestTransport,
     ],
 )
 def test_cloud_filestore_manager_transport_auth_gdch_credentials(transport_class):
