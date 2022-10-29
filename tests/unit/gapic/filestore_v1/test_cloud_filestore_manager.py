@@ -53,6 +53,7 @@ from google.cloud.filestore_v1.services.cloud_filestore_manager import transport
 from google.cloud.filestore_v1.types import cloud_filestore_service
 from google.longrunning import operations_pb2
 from google.oauth2 import service_account
+from google.protobuf import empty_pb2  # type: ignore
 from google.protobuf import field_mask_pb2  # type: ignore
 from google.protobuf import timestamp_pb2  # type: ignore
 from google.protobuf import wrappers_pb2  # type: ignore
