@@ -7,6 +7,11 @@
         "google/cloud/filestore/gapic_version.py",
         {
           "type": "json",
+          "path": "samples/generated_samples/snippet_metadata_google.cloud.filestore.v1.json",
+          "jsonpath": "$.clientLibrary.version"
+        },
+        {
+          "type": "json",
           "path": "samples/generated_samples/snippet_metadata_filestore_v1.json",
           "jsonpath": "$.clientLibrary.version"
         }
