@@ -27,14 +27,14 @@ from typing import (
     Type,
     Union,
 )
-import pkg_resources
 
-from google.api_core.client_options import ClientOptions
 from google.api_core import exceptions as core_exceptions
 from google.api_core import gapic_v1
 from google.api_core import retry as retries
+from google.api_core.client_options import ClientOptions
 from google.auth import credentials as ga_credentials  # type: ignore
 from google.oauth2 import service_account  # type: ignore
+import pkg_resources
 
 try:
     OptionalRetry = Union[retries.Retry, gapic_v1.method._MethodDefault]
@@ -43,16 +43,20 @@ except AttributeError:  # pragma: NO COVER
 
 from google.api_core import operation  # type: ignore
 from google.api_core import operation_async  # type: ignore
-from google.cloud.common.types import operation_metadata as operation_metadata_pb2  # type: ignore
-from google.cloud.filestore_v1.services.cloud_filestore_manager import pagers
-from google.cloud.filestore_v1.types import cloud_filestore_service
+from google.cloud.common.types import (
+    operation_metadata as operation_metadata_pb2,
+)  # type: ignore
 from google.protobuf import empty_pb2  # type: ignore
 from google.protobuf import field_mask_pb2  # type: ignore
 from google.protobuf import timestamp_pb2  # type: ignore
 from google.protobuf import wrappers_pb2  # type: ignore
-from .transports.base import CloudFilestoreManagerTransport, DEFAULT_CLIENT_INFO
-from .transports.grpc_asyncio import CloudFilestoreManagerGrpcAsyncIOTransport
+
+from google.cloud.filestore_v1.services.cloud_filestore_manager import pagers
+from google.cloud.filestore_v1.types import cloud_filestore_service
+
 from .client import CloudFilestoreManagerClient
+from .transports.base import DEFAULT_CLIENT_INFO, CloudFilestoreManagerTransport
+from .transports.grpc_asyncio import CloudFilestoreManagerGrpcAsyncIOTransport
 
 
 class CloudFilestoreManagerAsyncClient:

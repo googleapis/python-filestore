@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-from .client import CloudFilestoreManagerClient
 from .async_client import CloudFilestoreManagerAsyncClient
+from .client import CloudFilestoreManagerClient
 
 __all__ = (
     "CloudFilestoreManagerClient",
