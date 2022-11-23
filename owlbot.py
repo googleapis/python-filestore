@@ -42,7 +42,7 @@ for library in s.get_staging_dirs(default_version):
         "from google.cloud.common.types import operation_metadata as operation_metadata_pb2",
     )
 
-    s.move([library], excludes=["**/gapic_version.py", "setup.py"])
+    s.move([library], excludes=["**/gapic_version.py", "setup.py", "testing/constraints-3.7.txt"])
 
 s.remove_staging_dirs()
 
